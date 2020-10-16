@@ -1,0 +1,48 @@
+
+
+/*General Styles ----------------------------------------------------------------------------------------------*/
+
+body { padding: 0; margin: 0; overflow-x: hidden; }
+	.wrapper { height: 3280px; overflow: hidden; display: grid; grid-template-areas: "nav" "main" "section" "footer"; 
+		grid-template-rows: 2% 20% 73% 5%; }
+		.navegacao { grid-area: nav; display: flex; justify-content: space-between;
+					background: tomato; font-family: 'Quicksand', sans-serif; }
+		.navegacao a { color: #fff; }
+			.marca { margin-top: 1em; font-size: 1.5em; font-weight: bold;}
+			.marca a { margin-left: 1em; text-decoration: none;}
+			.itens-navegacao { margin-top: 1em; }
+			.itens-navegacao-lista { display: flex; font-weight: bold; ;}
+			.itens-navegacao-lista li { margin-right: 2em; list-style: none; }
+			.itens-navegacao-lista li a { text-decoration: none; }
+			.midias-sociais { margin-right: 1em; margin-top: 1em; }
+			.midias-sociais a { margin-right: 1em; }
+		.destaque { grid-area: main; 
+					background: url('../img/compras0.jpg')no-repeat center/cover; }
+					.destaque-detalhes { position: relative; left: 45%; top: 20%; 
+						color: tomato; font-family: 'Quicksand', sans-serif; 
+						font-weight: bold;}
+					.destaque-detalhes span { font-size: 3em; }
+					.destaque-detalhes p { position: relative; left: 5%; font-size: 0.8em; }
+		.conteudo { grid-area: section; }
+			.secao-produto { height: 50%; }
+			.secao-validacao{ height: 50%; }
+		.rodape { grid-area: footer; }
+/*End of general styles --------------------------------------------------------------------------------------*/
+
+
+
+
+
+/*Breakpoints ------------------------------------------------------------------------------------------------*/
+
+@media (max-width: 420px) {
+
+}
+
+@media (min-width: 421px) and (max-width: 720px) {
+
+}
+
+@media (min-width: 721px) and (max-width: 920px) {
+
+}
