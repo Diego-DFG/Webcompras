@@ -36,17 +36,9 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 					border: none; padding: 1em; position: relative; left: 10em;
 					cursor: pointer; border-radius: 50px; }
 
-			.secao-validacao { height: 37%; background: tomato; color: #fff; }
-			.secao-validacao img { margin-bottom: 1em; }
-			.secao-cartao { display: flex; }
-				.cartao { margin-top: 2em; text-align: center; font-size: 1.5em; }
-				.cartao1 { width: 25%; position: relative; left: 1em; top: 5em; }
-				.cartao2 { width: 25%; position: relative; left: 3em; top: 5em;}
-				.cartao3 { width: 25%; position: relative; left: 6em; top: 5em;}
-				.btn-loja { background: #fff; margin-top: 1em; padding: 1em; font-size: 0.8em; 
-							border: none; border-radius: 50px; color: tomato; }
+			.secao-validacao { height: 38%; background: tomato; color: #fff; }
 				.titulo-principal { position: relative; left: 35%; top: 2em; }
-			.secao-depoimento { display: flex; height: 38%; background: #fff; 
+			.secao-depoimento { display: flex; height: 37%; background: #fff; 
 								justify-content: center; }
 			.titulo-cliente { color: tomato; position: relative; left: 35%; top: 2em;}
 				.secao-cliente { display: flex; }
