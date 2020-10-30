@@ -7,7 +7,7 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 		grid-template-rows: 2% 25% 68% 5%; font-family: 'Quicksand', sans-serif;}
 		.navegacao { grid-area: nav; display: flex; justify-content: space-between;
 					background: tomato; }
-		.navegacao a { color: #fff; }
+		.navegacao a { color: #fff;  }
 			.marca { margin-top: 1em; font-size: 1.5em; font-weight: bold;}
 			.marca a { margin-left: 1em; text-decoration: none;}
 			.itens-navegacao { margin-top: 1em; }
@@ -38,6 +38,9 @@ body { padding: 0; margin: 0; overflow-x: hidden; }
 
 			.secao-validacao { height: 38%; background: tomato; color: #fff; }
 				.titulo-principal { position: relative; left: 35%; top: 2em; }
+				.btn-loja { background: #fff; color: tomato; padding: 1em; 
+							position: relative; top: 5em; border: none; 
+							border-radius: 30px; left: 580px; }
 			.secao-depoimento { display: flex; height: 37%; background: #fff; 
 								justify-content: center; }
 			.titulo-cliente { color: tomato; position: relative; left: 35%; top: 2em;}

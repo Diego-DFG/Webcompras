@@ -23,8 +23,9 @@
 				<div class="itens-navegacao">
 					<ul class="itens-navegacao-lista">
 						<li><a href="#">Home</a></li>
-						<li><a href="#">Produtos</a></li>
-						<li><a href="#">Vantagens</a></li>
+						<li><a href="#vantagens">Vantagens</a></li>
+						<li><a href="#produtos">Produtos</a></li>
+						<li><a href="#depoimentos">Nossos clientes</a></li>
 					</ul>
 				</div>
 				<div class="midias-sociais">
@@ -33,13 +34,13 @@
 					<a href="#"><i class="fab fa-instagram fa-2x"></i></a>
 				</div>
 			</nav>
-			<main class="destaque">
+			<main id="destaque" class="destaque">
 				<div class="destaque-detalhes">
 					<span>100% de seu dinheiro de volta</span>
 					<p>Compre na Webcompras e tenha 100% de cashback em produtos de qualquer categoria</p>
 				</div>
 			</main>
-			<section class="conteudo">
+			<section id="vantagens" class="conteudo">
 				<div class="secao-produto">
 					<img src="./img/compras1.jpg">
 					<div class="secao-produto-detalhes">
@@ -48,7 +49,7 @@
 						<button class="btn-cta" type="button">Seja Membro Agora!</button>
 					</div>
 				</div>
-				<div class="secao-validacao">
+				<div id="produtos" class="secao-validacao">
 					<div class="titulo-principal">
 						<h1>CATEGORIAS</h1>
 					</div>
@@ -56,32 +57,48 @@
 					<!-- Carrossel -->
 
 					<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-					  <ol class="carousel-indicators">
-					    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-					    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-					    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-					  </ol>
 					  <div class="carousel-inner">
 					    <div class="carousel-item active">
-					      <img src="./img/clothing0.jpg" class="d-block w-20" alt="...">
-					      <div class="carousel-caption d-none d-md-block">
-					        <h5>First slide label</h5>
-					        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-					      </div>
+					    		<img src="./img/clothing0.jpg" class="w-20 img-thumbnail" alt="...">
+							    <div class="carousel-caption d-none d-md-block">
+							       <h5 class="item_1">Casacos</h5>
+							    </div>
+					    		<img src="./img/hat.jpg" class="w-20 img-thumbnail" alt="...">
+							    <div class="carousel-caption d-none d-md-block">
+							       <h5 class="item_2">Chapelaria</h5>
+							    </div>
+							     <img src="./img/sunglasses.jpg" class="w-20 img-thumbnail" alt="...">
+							    <div class="carousel-caption d-none d-md-block">
+							      	<h5 class="item_3">Óculos</h5>
+							    </div>
 					    </div>
 					    <div class="carousel-item">
-					      <img src="./img/hat.jpg" class="d-block w-20" alt="...">
-					      <div class="carousel-caption d-none d-md-block">
-					        <h5>Second slide label</h5>
-					        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-					      </div>
+					      		<img src="./img/short.jpg" class="w-20 img-thumbnail" alt="...">
+							    <div class="carousel-caption d-none d-md-block">
+							       <h5 class="item_1">Bermudas</h5>
+							    </div>
+					    		<img src="./img/shoes.jpg" class="w-20 img-thumbnail" alt="...">
+							    <div class="carousel-caption d-none d-md-block">
+							       <h5 class="item_2">Sapatos</h5>
+							    </div>
+							     <img src="./img/suit.jpg" class="w-20 img-thumbnail" alt="...">
+							    <div class="carousel-caption d-none d-md-block">
+							      	<h5 class="item_3">Ternos</h5>
+							    </div>
 					    </div>
 					    <div class="carousel-item">
-					      <img src="./img/sunglasses.jpg" class="d-block w-20" alt="...">
-					      <div class="carousel-caption d-none d-md-block">
-					        <h5>Third slide label</h5>
-					        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-					      </div>
+					     		<img src="./img/headphones.jpg" class="w-20 img-thumbnail" alt="...">
+							    <div class="carousel-caption d-none d-md-block">
+							       <h5 class="item_1">Headphones</h5>
+							    </div>
+					    		<img src="./img/smartphones.jpg" class="w-20 img-thumbnail" alt="...">
+							    <div class="carousel-caption d-none d-md-block">
+							       <h5 class="item_2">Smartphones</h5>
+							    </div>
+							     <img src="./img/notebooks.jpg" class="w-20 img-thumbnail" alt="...">
+							    <div class="carousel-caption d-none d-md-block">
+							      	<h5 class="item_3">Notebooks</h5>
+							    </div>
 					    </div>
 					  </div>
 					  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
@@ -100,7 +117,7 @@
 						<button class="btn-loja">Ir para loja online</button>
 					</div>
 				</div>
-				<div class="secao-depoimento">
+				<div id="depoimentos" class="secao-depoimento">
 					<div class="titulo-cliente">
 						<h1>DEPOIMENTOS</h1>
 					</div>
