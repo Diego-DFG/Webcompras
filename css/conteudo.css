@@ -1,0 +1,100 @@
+.conteudo {
+  grid-area: section;
+}
+
+.conteudo__produto {
+  display: flex;
+  height: 25%;
+  margin: 13em 0 0 5em;
+}
+
+.conteudo__produto .produto__img-descricao {
+  height: 40%;
+  border-radius: 50%;
+}
+
+.conteudo__detalhes .destalhes__titulo {
+  font-size: 4em;
+  color: tomato;
+  position: relative;
+  bottom: 1em;
+}
+
+.conteudo__detalhes .detalhes__descricao {
+  width: 70%;
+  margin: 3em 10em 0 1em;
+  position: relative;
+  bottom: 4em;
+}
+
+.conteudo__detalhes .detalhes_btn {
+  background: tomato;
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: bold;
+  border: none;
+  padding: 1em;
+  position: relative;
+  left: 10em;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+.conteudo__validacao {
+  height: 37%;
+  background: tomato;
+  color: #fff;
+}
+
+.contedo__cartao {
+  display: flex;
+}
+
+.conteudo__validacao .validacao__img-descricao {
+  margin-bottom: 1em;
+}
+
+.cartao {
+  margin-top: 2em;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.cartao1 {
+  width: 25%;
+  position: relative;
+  left: 1em;
+  top: 5em;
+}
+
+.cartao2 {
+  width: 25%;
+  position: relative;
+  left: 3em;
+  top: 5em;
+}
+
+.cartao3 {
+  width: 25%;
+  position: relative;
+  left: 6em;
+  top: 5em;
+}
+
+.conteudo__validacao .validacao__btn {
+  background: #fff;
+  margin-top: 1em;
+  padding: 1em;
+  font-size: 0.8em;
+  border: none;
+  border-radius: 50px;
+  color: tomato;
+}
+
+.conteudo__depoimento .depoimento__titulo {
+  position: relative;
+  left: 35%;
+  top: 2em;
+}
+
+/*# sourceMappingURL=conteudo.css.map */

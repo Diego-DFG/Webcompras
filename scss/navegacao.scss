@@ -1,0 +1,30 @@
+.navegacao 
+{ grid-area: nav; display: flex; background: tomato; }
+
+#navegacao__check 
+{ margin: 1em; display: none; }
+
+.navegacao__checkbtn 
+{ font-size: 30px; color: #fff; margin-left: 1em; 
+line-height: 60px; position: relative; left: 280px; 
+display: none; }
+
+
+.navegacao__logo 
+{ font-size: 30px; padding: 0 100px; width: 100px; 
+margin-top: 5px }
+
+.navegacao__logo .logo__ancora 
+{ color: #fff; }
+
+.navegacao__lista 
+{ position: relative; margin-left: 20%; 
+line-height: 40px; }
+
+.navegacao__lista .lista__link 
+{ display: inline-block; 
+margin-right: 2em; }
+
+.navegacao__lista .lista__ancora 
+{ color: #fff; list-style: none; 
+text-transform: uppercase; }

@@ -4,100 +4,128 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Webcompras Landing Page</title>
-		<!-- estilo css -->
-		<link rel="stylesheet" type="text/css" href="./css/main.css">
+
+		<!-- reset css -->
+		<link rel="stylesheet" type="text/css" href="./css/reset.css">
+
+		<!-- estilos gerais css -->
+		<link rel="stylesheet" type="text/css" href="./css/estilosGerais.css">
+
+		<!-- navegacao css -->
+		<link rel="stylesheet" type="text/css" href="./css/navegacao.css">
+
 		<!-- slider -->
 		<link rel="stylesheet" type="text/css" href="./css/slider.css">
+
+		<!-- destaque css -->
+		<link rel="stylesheet" type="text/css" href="./css/destaque.css">
+
+		<!-- conteudo css -->
+		<link rel="stylesheet" type="text/css" href="./css/conteudo.css">
+
+		<!-- depoimento css -->
+		<link rel="stylesheet" type="text/css" href="./css/depoimento.css">
+
+		<!-- rodape css -->
+		<link rel="stylesheet" type="text/css" href="./css/rodape.css">
+
+		<!-- breakpoints css -->
+		<link rel="stylesheet" type="text/css" href="./css/breakpoints.css">
+
 		<!-- bootstrap -->
 		<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+
 		<!-- google fonts -->
 		<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet">
+
+		<!--Font awesome -->
 		<script src="./js/fontawesome-all.js"></script>
+
 	</head>
 	<body>
 		<div class="wrapper">
 			<nav class="navegacao">
-				<input type="checkbox" id="check">
-				<label for="check" class="checkbtn">
+				<input type="checkbox" id="navegacao__check">
+				<label for="check" class="navegacao__checkbtn">
 					<i class="fas fa-bars"></i>
 				</label>
-				<div class="marca">
-					<a href="#">Webcompras</a>
+				<div class="navegacao__logo">
+					<a class="logo__ancora" href="#">Webcompras</a>
 				</div>
-				<ul class="navegacao-itens-lista">
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Produtos</a></li>
-					<li><a href="#">Vantagens</a></li>
+				<ul class="navegacao__lista">
+					<li class="lista__link"><a class="lista__ancora" href="#">Home</a></li>
+					<li class="lista__link"><a class="lista__ancora" href="#">Produtos</a></li>
+					<li class="lista__link"><a class="lista__ancora" href="#">Vantagens</a></li>
 				</ul>
 			</nav>
 			<main class="destaque">
-				<div class="destaque-detalhes">
-					<span>100% de seu dinheiro de volta</span>
-					<p>Compre na Webcompras e tenha 100% de cashback em produtos de qualquer categoria</p>
+				<div class="destaque__detalhes">
+					<span class="destaque__chamada">100% de seu dinheiro de volta</span>
+					<p class="destaque__descricao">Compre na Webcompras e tenha 100% de cashback em produtos de qualquer categoria</p>
 				</div>
 			</main>
 			<section class="conteudo">
-				<div class="secao-produto">
-					<img src="./img/compras1.jpg">
-					<div class="secao-produto-detalhes">
-						<span>Como funciona o cashback webcompras?</span>
-						<p>Acumulando 500 pontos em nosso clube de membros você ganha 100% de cashback em produtos de qualquer categoria em nossas lojas.</p>
-						<button class="btn-cta" type="button">Seja Membro Agora!</button>
+				<div class="conteudo__produto">
+					<img src="./img/compras1.jpg" alt="cofre de porco" class="produto__img-descricao">
+					<div class="conteudo__detalhes">
+						<h2 class="detalhes__titulo">Como funciona o cashback webcompras?</h2>
+						<p class="detalhes__descricao">Acumulando 500 pontos em nosso clube de membros você ganha 100% de cashback em produtos de qualquer categoria em nossas lojas.</p>
+						<button class="detalhes__btn" type="button">Seja Membro Agora!</button>
 					</div>
 				</div>
-				<div class="secao-validacao">
-					<div class="titulo-principal">
+				<div class="conteudo__validacao">
+					<div class="validacao__titulo">
 						<h1>CATEGORIAS</h1>
 					</div>
-					<div class="secao-cartao">
+					<div class="conteudo__cartao">
 						<div class="cartao cartao1">
-							<img src="./img/clothing0.jpg" class="img-thumbnail">
+							<img src="./img/clothing0.jpg" class="img-thumbnail validacao__img-descricao">
 							<span>Casacos</span>
 						<div>
-							<button class="btn-loja">Ir para loja online</button>
+							<button class="validacao__btn">Ir para loja online</button>
 						</div>
 					</div>
 					<div class="cartao cartao2">
 						<img src="./img/hat.jpg" class="img-thumbnail">
 						<span>Coberturas</span>
 						<div>
-							<button class="btn-loja">Ir para loja online</button>
+							<button class="validacao__btn">Ir para loja online</button>
 						</div>
 					</div>
 					<div class="cartao cartao3">
 						<img src="./img/sunglasses.jpg" class="img-thumbnail">
 						<span>Óculos</span>
 						<div>
-							<button class="btn-loja">Ir para loja online</button>
+							<button class="validacao__btn">Ir para loja online</button>
 						</div>
 					</div>
 					</div>
 				</div>
-				<div class="secao-depoimento">
-					<div class="titulo-cliente">
+				<div class="conteudo__depoimento">
+					<div class="depoimento__titulo">
 						<h1>DEPOIMENTOS</h1>
 					</div>
-					<div class="secao-cliente">
+					<div class="conteudo__cliente">
 						<div class="cliente cliente1">
-							<img src="./img/cliente1.jpg">
-							<p>"Material de excelente qualidade"</p>
-							<span>Beatriz - RJ</span>
+							<img src="./img/cliente1.jpg" class="cliente__img-descricao">
+							<p class="cliente__descricao">"Material de excelente qualidade"</p>
+							<span class="cliente__nome">Beatriz - RJ</span>
 						</div>
 						<div class="cliente cliente2">
-							<img src="./img/cliente2.jpg">
-							<p>"Promoções incríveis"</p>
-							<span>Rafael - RS</span>
+							<img src="./img/cliente2.jpg" class="cliente__img-descricao">
+							<p class="cliente__descricao">"Promoções incríveis"</p>
+							<span class="cliente__nome">Rafael - RS</span>
 						</div>
 						<div class="cliente cliente3">
-							<img src="./img/cliente3.jpg">
-							<p>"Clube de membros com ótimas oportunidades"</p>
-							<span>Isabela - SP</span>
+							<img src="./img/cliente3.jpg" class="cliente__img-descricao">
+							<p class="cliente__descricao">"Clube de membros com ótimas oportunidades"</p>
+							<span class="cliente__nome">Isabela - SP</span>
 						</div>
 					</div>
 				</div>
 			</section>
 			<footer class="rodape">
-				<p>&copy; Diego Gomes - 2020</p>
+				<p class="rodape__descricao">&copy; Diego Gomes - 2020</p>
 			</footer>
 		</div>
 	</body>

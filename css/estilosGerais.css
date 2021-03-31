@@ -1,0 +1,17 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.wrapper {
+  height: 3280px;
+  overflow: hidden;
+  display: grid;
+  grid-template-areas: "nav" "main" "section" "footer";
+  grid-template-rows: 2% 25% 68% 5%;
+  font-family: "Quicksand", sans-serif;
+}
+
+/*# sourceMappingURL=estilosGerais.css.map */

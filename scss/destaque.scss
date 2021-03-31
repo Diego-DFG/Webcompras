@@ -1,0 +1,19 @@
+.destaque 
+{ grid-area: main; background: url('../img/compras0.jpg')no-repeat center/cover;
+clip-path: polygon(100% 0, 100% 70%, 50% 100%, 0 70%, 0 0); }
+
+.destaque:before 
+{ content: ''; position: absolute; top: 0; left: 0; width: 100%;
+height: 100%;  }
+					
+.destaque__detalhes 
+{ position: relative; left: 45%; top: 20%; 
+color: tomato; font-family: 'Quicksand', sans-serif; 
+font-weight: bold;}
+					
+.destaque__detalhes .destaque__chamada 
+{ font-size: 2.5em; }
+					
+.destaque__detalhes .destaque__descricao 
+{ position: relative; 
+left: 1em; font-size: 0.8em; }

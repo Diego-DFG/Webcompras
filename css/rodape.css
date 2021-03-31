@@ -1,0 +1,14 @@
+.rodape {
+  grid-area: footer;
+  background: tomato;
+}
+
+.rodape__descricao {
+  position: relative;
+  top: 2em;
+  left: 2em;
+  font-size: 1.5em;
+  color: #fff;
+}
+
+/*# sourceMappingURL=rodape.css.map */
