@@ -1,0 +1,52 @@
+$orange: tomato;
+$white: #fff;
+
+.navegacao 
+{ grid-area: nav; display: flex; background: $orange; 
+
+	&__check 
+	{ margin: 1em; display: none; }
+
+	&__checkbtn 
+	{ font-size: 30px; color: $white; margin-left: 1em; 
+	line-height: 60px; position: relative; left: 280px; 
+	display: none; }
+
+	&__logo 
+	{ font-size: 30px; padding: 0 100px; width: 100px; 
+	margin-top: 5px; 
+
+		& .logo__ancora 
+		{ color: $white; }
+
+	}
+
+	&__lista 
+	{ position: relative; margin-left: 20%; 
+	line-height: 40px; 
+
+		& .lista__link 
+		{ display: inline-block; 
+		margin-right: 2em; }
+
+		& .lista__ancora 
+		{ color: $white; list-style: none; 
+		text-transform: uppercase; }
+
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
