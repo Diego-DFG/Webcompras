@@ -1,0 +1,68 @@
+// Variáveis
+
+$white: #fff;
+$black: #000;
+$orange: tomato;
+
+
+
+// Mixins
+
+@mixin flx {
+	display: flex;
+}
+
+@mixin pst($property, $value) {
+	#{$property}: $value;
+}
+
+@mixin tp_wdt_rgt($property, $rgtVal) {
+	top: 5em;
+	width: 25%;
+	#{$property}: $rgtVal;
+}
+
+
+
+// Estilos
+
+.conteudo__depoimento 
+{ @include flx; height: 38%; background: $white; justify-content: center; 
+
+	& .depoimento__titulo 
+	{ color: $orange; @include pst(position, relative); left: 35%; top: 2em;}
+
+	.conteudo__cliente 
+	{ @include flx; 
+
+		& .cliente 
+		{ margin: 4em; }
+
+		& .cliente1 
+		{@include pst(position, relative); @include tp_wdt_rgt(right, 20em); }
+
+		& .cliente2 
+		{ @include pst(position, relative); @include tp_wdt_rgt(right, 15em); }
+
+		& .cliente3 
+		{ @include pst(position, relative); @include tp_wdt_rgt(right, 11em); }
+
+	}
+
+	& .cliente__img-descricao 
+	{ width: 300px; border-radius: 50%; }
+
+	& .cliente__descricao 
+	{ margin-top: 2em; text-align: center; font-size: 1.5em; color: $black;}
+
+	& .cliente__nome 
+	{ color: $orange; font-weight: 800; text-align: left; }
+
+}
+
+
+
+
+
+
+

@@ -1,0 +1,53 @@
+.conteudo__depoimento {
+  display: flex;
+  height: 38%;
+  background: #fff;
+  justify-content: center;
+}
+.conteudo__depoimento .depoimento__titulo {
+  color: tomato;
+  position: relative;
+  left: 35%;
+  top: 2em;
+}
+.conteudo__depoimento .conteudo__cliente {
+  display: flex;
+}
+.conteudo__depoimento .conteudo__cliente .cliente {
+  margin: 4em;
+}
+.conteudo__depoimento .conteudo__cliente .cliente1 {
+  position: relative;
+  top: 5em;
+  width: 25%;
+  right: 20em;
+}
+.conteudo__depoimento .conteudo__cliente .cliente2 {
+  position: relative;
+  top: 5em;
+  width: 25%;
+  right: 15em;
+}
+.conteudo__depoimento .conteudo__cliente .cliente3 {
+  position: relative;
+  top: 5em;
+  width: 25%;
+  right: 11em;
+}
+.conteudo__depoimento .cliente__img-descricao {
+  width: 300px;
+  border-radius: 50%;
+}
+.conteudo__depoimento .cliente__descricao {
+  margin-top: 2em;
+  text-align: center;
+  font-size: 1.5em;
+  color: #000;
+}
+.conteudo__depoimento .cliente__nome {
+  color: tomato;
+  font-weight: 800;
+  text-align: left;
+}
+
+/*# sourceMappingURL=_depoimento.css.map */

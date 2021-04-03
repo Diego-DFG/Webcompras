@@ -1,0 +1,36 @@
+
+// Variáveis
+
+$orange: tomato;
+
+
+// Mixins
+
+
+@mixin pos_left($property, $lftValue) {
+	position: relative;
+	#{property}: $lftValue
+}
+
+
+.destaque 
+{ grid-area: main; background: url('../img/compras0.jpg')no-repeat center/cover;
+clip-path: polygon(100% 0, 100% 70%, 50% 100%, 0 70%, 0 0); 
+
+	&:before 
+	{ content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+	&__detalhes 
+	{ @include pos_left(left, 45%); top: 20%; 
+	color: $orange; font-family: 'Quicksand', sans-serif; font-weight: bold;
+
+		& .destaque__chamada 
+		{ font-size: 2.5em; }
+
+		& .destaque__descricao 
+		{ @include pos_left(left, 1em); font-size: 0.8em; }
+
+	}
+
+}
+					
